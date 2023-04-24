@@ -1,0 +1,24 @@
+header {
+    font-family: 'Century Gothic';
+    background: #444;
+    background: -webkit-linear-gradient(to right, darkblue, #444);
+    background: linear-gradient(to right, darkblue, #444);
+}
+
+
+/*estilos para la tabla*/
+table th {
+    background-color: dimgrey !important;
+    color: white;
+}
+
+table>tbody>tr>td {
+    vertical-align: middle !important;
+    font-size: 13px;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group,
+.btn-group-vertical {
+    position: absolute !important;
+}
